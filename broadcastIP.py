@@ -1,6 +1,7 @@
 # udp_gb_server.py
 '''服务端（UDP协议局域网广播）'''
 import time
+time.sleep( 5 )
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
